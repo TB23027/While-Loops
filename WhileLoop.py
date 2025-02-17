@@ -1,4 +1,4 @@
-number = 1
+'''number = 1
 while number < 11:
     print(number)
     number+=1
@@ -37,3 +37,20 @@ while True:
 
 print("Access Granted")
     
+'''
+
+import random
+number_to_guess = random.randint(1,10)
+while True:
+    try:
+        guess_1 = int(input("Guess a number: "))
+        if guess_1 == number_to_guess:
+            break
+        elif guess_1 > number_to_guess:
+            print("Too high!")
+        else:
+            print("Too low")
+    except ValueError:
+        print("Enter a proper number")
+
+print("Correct!")
