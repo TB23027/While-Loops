@@ -23,4 +23,17 @@ while True:
 
 print(f"Total sum: {total_sum}")
 
+
+password = ("python123")
+while True:
+    try:
+        guess = input("Enter your password: ")
+        if guess == password:
+            break
+        else:
+            print("Incorrect, Try again")
+    except ValueError:
+        print("please Enter a proper password")
+
+print("Access Granted")
     
