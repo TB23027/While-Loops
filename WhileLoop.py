@@ -1,4 +1,4 @@
-'''number = 1
+number = 1
 while number < 11:
     print(number)
     number+=1
@@ -94,7 +94,7 @@ while index < len(question_4):
     
     index += 1
 print("Word without vowels:", result)
-'''
+
 
 number_4 = int(input("Enter a number: "))
 factorial = 1
