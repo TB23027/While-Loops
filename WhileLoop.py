@@ -37,8 +37,6 @@ while True:
 
 print("Access Granted")
     
-'''
-
 import random
 number_to_guess = random.randint(1,10)
 while True:
@@ -54,3 +52,12 @@ while True:
         print("Enter a proper number")
 
 print("Correct!")
+'''
+
+number_2 = 2
+while number_2 <= 20:
+    print(number_2)
+    number_2 += 2
+    
+
+  
