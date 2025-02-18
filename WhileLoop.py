@@ -58,13 +58,31 @@ number_2 = 2
 while number_2 <= 20:
     print(number_2)
     number_2 += 2
-    '''
+
 
 number_3 = int(input("Enter a number: "))
 times = 1
 while times <=10:
     print(f"{number_3} x {times} = {number_3 * times} ")
     times += 1
+    '''
+
+
+
+while True:
+    try:
+        guess = int(input("Enter a number: "))
+        if guess <= 100 and guess >= 0:
+            break
+        else:
+            print("Invalid, Try again")
+
+    except ValueError:
+        print("Please enter a valid number: ")
+    
+print("Accepted")
+
+
 
 
 
