@@ -81,7 +81,7 @@ while True:
         print("Please enter a valid number: ")
     
 print("Accepted")
-'''
+
 
 
 question_4 = input("Enter a word: ")
@@ -94,7 +94,14 @@ while index < len(question_4):
     
     index += 1
 print("Word without vowels:", result)
+'''
 
+number_4 = int(input("Enter a number: "))
+factorial = 1
+while number_4 > 0:
+    factorial *= number_4
+    number_4 -= 1
+print("Factorial is", factorial)
 
 
 
