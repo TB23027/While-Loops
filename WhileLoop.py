@@ -52,12 +52,20 @@ while True:
         print("Enter a proper number")
 
 print("Correct!")
-'''
+
 
 number_2 = 2
 while number_2 <= 20:
     print(number_2)
     number_2 += 2
-    
+    '''
+
+number_3 = int(input("Enter a number: "))
+times = 1
+while times <=10:
+    print(f"{number_3} x {times} = {number_3 * times} ")
+    times += 1
+
+
 
   
