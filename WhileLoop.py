@@ -43,7 +43,7 @@ import random
 number_to_guess = random.randint(1,10)
 while True:
     try:
-        guess_1 = int(input("Guess a number: "))
+        guess_1 = int(input("Guess a number between 1 and 10: "))
         if guess_1 == number_to_guess:
             break
         elif guess_1 > number_to_guess:
