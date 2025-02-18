@@ -65,7 +65,7 @@ times = 1
 while times <=10:
     print(f"{number_3} x {times} = {number_3 * times} ")
     times += 1
-    '''
+
 
 
 
@@ -81,7 +81,19 @@ while True:
         print("Please enter a valid number: ")
     
 print("Accepted")
+'''
 
+
+question_4 = input("Enter a word: ")
+vowels = "aeiouAEIOU"
+result = ""
+index = 0
+while index < len(question_4):
+    if question_4[index] not in vowels:
+        result += question_4[index]
+    
+    index += 1
+print("Word without vowels:", result)
 
 
 
